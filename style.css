@@ -1,0 +1,29 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: yellow;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        body div {
+            /* border: 2px solid yellow; */
+            border-radius: 15px;
+        }
+        body div p{
+            border: 2px solid yellow;
+            padding: 30px;
+            border-radius: 25px 25px 0 0;
+        }
+        .result{
+            border-radius: 0 0 25px 25px ;
+            display: flex;
+            justify-content: center;
+        }
